@@ -3,6 +3,7 @@ from django.http import HttpResponse
 from django.template import loader
 import tweepy
 import random
+from django.shortcuts import redirect
 
 
 def init_api():
@@ -77,11 +78,6 @@ def result(request):
                 return HttpResponse(template.render(context, request))
 
     else:
-        variable = "get"
-        template = loader.get_template("picker/result.html")
-        context = {
-            "data": variable
-        }
-        return HttpResponse(template.render(context, request))
+        return redirect("index")
 
 

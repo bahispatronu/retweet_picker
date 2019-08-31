@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82e4c382-1dd8-479e-8e7a-82aff009f547" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/picker/templates/picker/about.html" afterPath="$PROJECT_DIR$/picker/templates/picker/about.html" />
-      <change beforePath="$PROJECT_DIR$/picker/templates/picker/how.html" afterPath="$PROJECT_DIR$/picker/templates/picker/how.html" />
-      <change beforePath="$PROJECT_DIR$/picker/templates/picker/result.html" afterPath="$PROJECT_DIR$/picker/templates/picker/result.html" />
+      <change beforePath="$PROJECT_DIR$/picker/views.py" afterPath="$PROJECT_DIR$/picker/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,12 +53,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/picker/templates/picker/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="30" column="45" lean-forward="false" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+            <state relative-caret-position="421">
+              <caret line="41" column="67" lean-forward="true" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/picker/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,12 +103,12 @@
         <option value="$PROJECT_DIR$/picker/templates/picker/css/cover.css" />
         <option value="$PROJECT_DIR$/picker/static/picker/cover.css" />
         <option value="$PROJECT_DIR$/picker/urls.py" />
-        <option value="$PROJECT_DIR$/picker/views.py" />
         <option value="$PROJECT_DIR$/retweetwinner/settings.py" />
         <option value="$PROJECT_DIR$/picker/templates/picker/index.html" />
         <option value="$PROJECT_DIR$/picker/templates/picker/result.html" />
         <option value="$PROJECT_DIR$/picker/templates/picker/how.html" />
         <option value="$PROJECT_DIR$/picker/templates/picker/about.html" />
+        <option value="$PROJECT_DIR$/picker/views.py" />
       </list>
     </option>
   </component>
@@ -310,8 +319,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#35#0" expanded="false" />
-            <element signature="e#2543#2742#0" expanded="false" />
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -340,17 +348,6 @@
           <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding>
             <element signature="e#0#28#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/picker/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#35#0" expanded="false" />
-            <element signature="e#2543#2742#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -396,9 +393,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/picker/templates/picker/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="30" column="45" lean-forward="false" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+        <state relative-caret-position="421">
+          <caret line="41" column="67" lean-forward="true" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/picker/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
