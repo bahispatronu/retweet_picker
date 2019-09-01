@@ -7,10 +7,10 @@ from django.shortcuts import redirect
 
 
 def init_api():
-    CONSUMER_KEY = "z1rGUsDaJnddDkMIUrjn1LLeH"
-    CONSUMER_SECRET = "PrUZQYmk2o47DfWYtJRtBARpMBBorbtYfoUHCy334fhJp33k8i"
-    ACCESS_KEY = "1031914262896074759-dmVsehvCdK31Briwe1IRsRGJbUuux8"
-    ACCESS_SECRET = "bci7y24cdz7tCl6wsbMfD6zTsh0HFN3mtGcuLLsh2sgQU"
+    CONSUMER_KEY = "FHDkXHwVdqpNQcA0t9nnXngSR"
+    CONSUMER_SECRET = "pw9CgnTz5TKAwDWkNCZJSxGbAT3vIsD3GmkC3LnDUV1K5pcZfk"
+    ACCESS_KEY = "1031914262896074759-u8tiNRWYHzX4CPYDmvIscGVzSudffq"
+    ACCESS_SECRET = "p2S3Jnm7akgMogNZ6sij7KcGcNCVXRunNz8YnR9wjyFAy"
     api = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
     api.set_access_token(ACCESS_KEY, ACCESS_SECRET)
     return tweepy.API(api)
