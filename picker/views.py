@@ -66,7 +66,7 @@ def result(request):
                 winner = random.choice(candidates)
                 user = api.get_user(id = winner)
                 context = {
-                    "title" : "Congratulations!",
+                    "title" : "Tebrikler :)",
                     "data": "@"+user.screen_name
                 }
                 return HttpResponse(template.render(context, request))
