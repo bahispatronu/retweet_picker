@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="tr-tr">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,31 +9,31 @@
     {% load static %}
     <link rel="stylesheet" href="{% static 'picker/cover.css' %}">
 
-    <title>Retweet Kazanan Seçici</title>
+    <title>Retweet Winner Picker</title>
   </head>
   <body class="text-center">
 
     <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
       <header class="masthead mb-auto">
         <div class="inner">
-          <h3 class="masthead-brand">Bir kazanan seçin</h3>
+          <h3 class="masthead-brand">Pick a winner</h3>
           <nav class="nav nav-masthead justify-content-center">
-            <a class="nav-link active" href="{% url 'index' %}">Bir kazanan seçin</a>
+            <a class="nav-link active" href="{% url 'index' %}">Pick A Winner</a>
             <a class="nav-link" href="{% url 'how' %}">How to</a>
-            <a class="nav-link" href="{% url 'about' %}">Hakkımızda</a>
+            <a class="nav-link" href="{% url 'about' %}">About</a>
           </nav>
         </div>
       </header>
 
       <main role="main" class="inner cover">
-        <h1 class="cover-heading">Rastgele Bir Kazanan Seçin</h1>
-        <p class="lead">Rastgele bir retweet kazanan seçin. Lütfen tweet URL'nizi kopyalayın ve aşağıya yapıştırın</p>
+        <h1 class="cover-heading">Pick a random winner</h1>
+        <p class="lead">Pick a retweet winner randomly. Please copy your tweet url and paste it below</p>
         <form method="post" action="result">
             {% csrf_token %}
           <div class="input-group mb-3">
-              <input type="text" class="form-control" required="required" placeholder="Tweet url (ex: https://twitter.com/bahis_patronu/status/1308137898219274246)" aria-label="Tweet url" name="tweet_url" aria-describedby="basic-addon2">
+              <input type="text" class="form-control" required="required" placeholder="Tweet url (ex: https://twitter.com/ydhnwb/status/1163011687215034368)" aria-label="Tweet url" name="tweet_url" aria-describedby="basic-addon2">
               <div class="input-group-append">
-                <button class="btn btn-outline-secondary" type="submit">Çekiliş Yap :)</button>
+                <button class="btn btn-outline-secondary" type="submit">Submit</button>
               </div>
           </div>
         </form>
@@ -41,7 +41,11 @@
 
       <footer class="mastfoot mt-auto">
         <div class="inner">
+<<<<<<< HEAD
           <p>Bahis Patronu Forum Sitesi <b><a href="https://twitter.com/bahis_patronu">@bahis_patronu</a></b></p>
+=======
+          <p>Built with love by <b><a href="https://twitter.com/ydhnwb">@ydhnwb</a></b></p>
+>>>>>>> parent of 3de8c60... Update index.html
         </div>
       </footer>
     </div>
